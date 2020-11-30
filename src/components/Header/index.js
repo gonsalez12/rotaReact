@@ -1,9 +1,6 @@
 import React, { Component} from 'react'
-import Header from './components/Header'
-import Routes from './routes'
 
-
-class App extends Component{
+class Header extends Component{
   
   constructor(props){
     super(props);
@@ -14,11 +11,8 @@ class App extends Component{
   render(){
     return(
       <div>
-        
-
-
-      <Routes/>
-
+        Meu projeto HEarder
+        <hr/>
       </div>
 
     );
@@ -27,4 +21,4 @@ class App extends Component{
 }
 
 
-export default App;
+export default Header;
